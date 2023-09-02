@@ -12,12 +12,67 @@ body{
   width: 100%;
 }
 
+
+
+/* Images design start */
+.start1{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(-40px) rotateY(180deg);
+}
+.start2{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.2;
+}
+img{
+    pointer-events: none;
+  }
+  .head-img{
+    width: 100%;
+    z-index: 0;
+    cursor: auto;
+  }
+
+
+  .dots{
+    position: absolute;
+    z-index: 10;
+  }
+  .dots-img1{
+    bottom: 10%;
+    right: 30px;
+    width: 200px;
+    transform: rotate(180deg);
+  }
+  .dots-img2{
+    top: 30%;
+    left: 30px;
+    width: 200px;
+    transform: rotate(180deg);
+  }
+  .dots-blue1{
+    top: 30%;
+    right: 8%;
+    transform: rotate(-40deg);
+  }
+  .dots-blue2{
+    bottom: 35%;
+    left: 5%;
+    transform: rotate(30deg);
+  }
+
 /* Form CSS starts */
 
 .wrapForm{
     width: 100%;
-    padding: 30px 0;
+    padding: 80px 0 30px 0;
     background: #fafaff;
+    position: relative;
 }
 
 .wrapForm .heading{
@@ -136,8 +191,17 @@ body{
     .wrapForm .heading{
         font-size: 25px;
     }
+    .dots-img1,.dots-img2{
+        opacity: 0.4;
+    }
+    .dots-blue1, .dots-blue2{
+        opacity: 0.25;
+    }
 }
 @media screen and (max-width: 630px){
+    .wrapForm{
+        padding: 40px 0 30px 0;
+    }
     .wrapForm form{
         width: 340px;
         border-top-left-radius: 40px;
