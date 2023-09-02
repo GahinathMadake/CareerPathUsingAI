@@ -140,7 +140,10 @@
     padding: 5px 0 5px;
   }
   .wrapPath .path .pathContent ul li .signimg{
-    width: 30px;
+    font-size: 30px;
+    font-weight: 900;
+    padding: 0 5px;
+    color: rgb(36, 218, 36);
   }
   .wrapPath .path .pathImg{
     width: 500px;
@@ -256,9 +259,6 @@
     }
     .wrapPath .path .pathContent ul li, .wrapPath .pathPara, .wrap-career .careerpara{
       font-size: 16px;
-    }
-    .wrapPath .path .pathContent ul li .signimg{
-      width: 25px;
     }
     .x-flame-img{
       width: 50px;
