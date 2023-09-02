@@ -139,7 +139,7 @@
     /* font-size: 20px; */
     padding: 5px 0 5px;
   }
-  .wrapPath .path .pathContent ul li img{
+  .wrapPath .path .pathContent ul li .signimg{
     width: 30px;
   }
   .wrapPath .path .pathImg{
@@ -257,7 +257,7 @@
     .wrapPath .path .pathContent ul li, .wrapPath .pathPara, .wrap-career .careerpara{
       font-size: 16px;
     }
-    .wrapPath .path .pathContent ul li img{
+    .wrapPath .path .pathContent ul li .signimg{
       width: 25px;
     }
     .x-flame-img{
