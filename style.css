@@ -170,14 +170,14 @@
   }
   @media screen and (max-width: 650px){
     .wrap-career .wrapPath{
-      width: 400px;
+      width: 380px;
     }
     .wrapPath .path .pathContent{
       padding: 0 10px;
-      min-width: 400px;
+      min-width: 370px;
     }
     .wrapPath .path .pathImg{
-      width: 380px;
+      width: 360px;
     }
     .wrap-career .heading , .wrapPath .path .pathContent .contentHeading , .wrapPath .pathHeading, .wrap-career .heading{
       font-size: 20px;
