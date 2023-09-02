@@ -191,11 +191,8 @@ img{
     .wrapForm .heading{
         font-size: 25px;
     }
-    .dots-img1,.dots-img2{
-        opacity: 0.4;
-    }
-    .dots-blue1, .dots-blue2{
-        opacity: 0.25;
+    .dots-img1, .dots-img2, .dots-blue1, .dots-blue2{
+        opacity: 0.1;
     }
 }
 @media screen and (max-width: 630px){
