@@ -129,6 +129,7 @@
     width: 100%;
     font-size: 25px;
     opacity: 0.9;
+    padding: 0 10px;
   }
   .wrapPath .path .pathContent ul{
     padding: 10px 10px 10px;
